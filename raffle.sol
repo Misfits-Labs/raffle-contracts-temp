@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
-import "node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol";
-import "node_modules/@openzeppelin/contracts/access/Ownable.sol";
-import "node_modules/@openzeppelin/contracts/security/ReentrancyGuard.sol";
-import "node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol";
+import "./node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol";
+import "./node_modules/@openzeppelin/contracts/access/Ownable.sol";
+import "./node_modules/@openzeppelin/contracts/security/ReentrancyGuard.sol";
+import "./node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol";
 
 contract raffle is Ownable, IERC721Receiver, ReentrancyGuard {
 
